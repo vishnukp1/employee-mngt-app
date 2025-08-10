@@ -9,15 +9,15 @@ const adminRouter = require ("./src/routes/adminRoutes")
 const staffRouter = require ("./src/routes/staffRoute")
 app.use(express.json());
 app.use(cors());
-app.use(morgan()); 
+app.use(morgan('dev')); 
 
 // mongodb+srv://vishnutoanother:TJY72CMzB5zAq3ZE@cluster0.00v8gqd.mongodb.net/ems-app 
  
-// mongodb://127.0.0.1:27017/mainproject1 
+// mongodb://127.0.0.1:27017/mainproject2
 
   
 mongoose
-  .connect("mongodb://127.0.0.1:27017/mainproject2", {
+  .connect("mongodb+srv://vishnutoanother:jH6ZluWmrKOiHAf4@cluster0.g4bupwj.mongodb.net/emsapp", {
     useNewUrlParser: true,
 
     useUnifiedTopology: true,
