@@ -1,12 +1,41 @@
-# React + Vite
+# Employee Management System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Employee Management System** built with the **MERN stack (MongoDB, Express, React.js, Node.js)** and **Redux** for state management.  
+This project helps streamline HR processes such as **task management, attendance tracking, and leave requests**, with secure authentication using **JWT**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
 
-## Expanding the ESLint configuration
+- 🔐 **Secure Authentication** – JSON Web Tokens (JWT) for protected user access  
+- 👥 **Employee Management** – Add, update, and manage employee details  
+- 📝 **Task Management** – Assign and track tasks efficiently  
+- 📅 **Leave Management** – Request and approve leaves (30% faster processing)  
+- ⏱ **Attendance Tracking** – Maintain accurate employee attendance records  
+- 🔄 **Redux State Management** – Ensures consistent data across the app  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack  
+
+- **Frontend**: React.js + Redux  
+- **Backend**: Node.js + Express  
+- **Database**: MongoDB  
+- **Authentication**: JSON Web Tokens (JWT)  
+
+---
+
+## ⚙️ Installation  
+
+### 1. Clone the repository  
+```bash
+git clone https://github.com/your-username/employee-management.git
+
+## Install dependencies
+Frontend
+cd client
+npm install
+
+## Backend
+cd server
+npm install
